@@ -1,0 +1,9 @@
+.container {
+    padding: 2px 16px;
+  }
+  .mat-card-content>:first-child, .mat-card>:first-child {
+    margin-top: 0;
+    width: 400px;
+    height: 330px;
+ 
+}

@@ -1,0 +1,52 @@
+<!-- 
+<mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>stylish star</mat-card-title>
+      <mat-card-subtitle>Allu Arjun</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="https://mcmscache.epapr.in/post_images/website_197/post_13451773/thumb.jpg" alt="Photo of a Shiba Inu">
+    <mat-card-content>
+      <p>
+        Allu Arjun is an Indian film actor who primarily works in Telugu cinema.
+         He was born on April 8, 1983, in Chennai, India. His father Allu Aravind is a famous producer.
+          In 1985, at the age of two, He worked as a child artist in the film Vijetha.
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button>LIKE</button>
+      <button mat-button>SHARE</button>
+    </mat-card-actions>
+  </mat-card> -->
+
+  <div class="row">
+    <div class="col-sm-4"*ngFor="let eve of Event">
+      <mat-card>
+        <img src="{{eve.imageurl}}" />
+        <span>
+            <p>id : {{eve.id}}</p>
+          </span>
+          <span>
+            <p>name :{{eve.name}}</p>
+          </span>
+          <span>
+            <p>detail :{{eve.detail}}</p>
+          </span>
+          <span>
+            <p>price :{{eve.price}}</p>
+          </span>
+          <span>
+            <p>rating :{{eve.rating}}</p>
+          </span>
+          <span>
+            <p>category :{{eve.category}}</p>
+          </span>
+       
+       
+        
+      </mat-card>
+   
+    </div>
+   
+  </div>
+  
