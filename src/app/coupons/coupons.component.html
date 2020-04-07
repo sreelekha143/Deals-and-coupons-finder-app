@@ -1,1 +1,43 @@
-<p>coupons works!</p>
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-4" *ngFor="let i of coupons">
+        <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+          <div class="card-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <img src="{{i.imageurl}}" style="height: 200px; width: 300px;" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <span>id :{{i.id}}</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <span>couponname :{{i.couponname}}</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <span>promocode :{{i.promocode}}</span>
+                </div>
+              </div>
+              <div class="row">
+                 <div class="col-6">
+                  <button (click)="goTocouponEditComponent(i._id)" class="btn btn-primary">Edit</button>
+                </div>
+                <div class="col-6">
+                  <button (click)="deletecouponFromService(i)" class="btn btn-danger">Delete</button>
+                </div> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button (click)=" addcouponToService()" style="height:30%" class="btn btn-success">Add
+      Coupon</button>
+  </div>
+  

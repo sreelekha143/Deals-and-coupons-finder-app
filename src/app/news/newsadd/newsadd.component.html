@@ -1,0 +1,274 @@
+<div>
+    <h2 style="text-align:center"><b>Add News Details</b></h2>
+    <div class="col-md-8 col-md-offset-3">
+    <form [formGroup]="myForm">
+      
+      <div class="form-group">
+        <label>ID</label>
+        <input type="text" formControlName="id" #id class="form-control" />
+        <div *ngIf="myForm.controls['id'].hasError('required') && myForm.controls['id'].touched" class="alert alert-danger">Id Required</div>
+        <div *ngIf="myForm.controls['id'].hasError('maxlength') && myForm.controls['id'].touched" class="alert alert-danger">Id
+          Should be max 4 digits</div>
+      </div>
+  
+      <div class="form-group">
+        <label>Name</label>
+        <input type="text" formControlName="name" #name class="form-control" />
+        <div *ngIf="myForm.controls['name'].hasError('required') &&  myForm.controls['name'].touched" class="alert alert-danger">Name Required</div>
+        <div *ngIf="myForm.controls['name'].hasError('pattern') &&  myForm.controls['name'].touched" class="alert alert-danger">Name
+          should start with capital</div>
+      </div>
+   
+  
+      <div class="form-group">
+        <label for="">Detail:</label><input #detail formControlName="detail" class="form-control"type="text" name="" id="detail"><br>
+        <div *ngIf="myForm.controls['detail'].hasError('required')&& myForm.controls['detail'].touched" class="alert alert-danger">
+      Detail Required</div>
+      </div>
+  
+   
+      <div class="form-group">
+        <label>Imageurl</label>
+        <input type="text" formControlName="imageurl" #imageurl class="form-control" />
+        <div *ngIf="myForm.controls['imageurl'].hasError('required') &&
+        myForm.controls['imageurl'].touched" class="alert alert-danger">Imageurl Required</div>
+          </div>
+  
+ 
+      <button [disabled]="!myForm.valid" (click)="addNewsToService(id.value,name.value,detail.value,imageurl.value)"
+      class="btn btn-primary">Save</button>
+    &nbsp; &nbsp;
+    <button (click)="cancel()" class="btn btn-warning">Cancel</button>
+    </form>
+  
+  </div>
+  
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

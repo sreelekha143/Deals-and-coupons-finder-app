@@ -1,0 +1,33 @@
+[{
+"id":1,
+        "couponname":"Amazon coupon",
+    "imageurl":"https://i.pinimg.com/originals/50/62/85/50628577cfe33ef70e5f4fda8a390d36.jpg",
+    "promocode":"B0987"
+},
+
+{
+    "id":2,
+    "couponname":"Flipcart",
+    "imageurl":"https://i1.wp.com/studyoversea.xyz/wp-content/uploads/2020/03/flipkart-coupons-1.png?fit=411%2C205&ssl=1",
+    "promocode":"P098"
+},
+{
+    "id":3,
+    "couponname":"CMR shoppingmall",
+    "imageurl":"https://d168jcr2cillca.cloudfront.net/uploadimages/coupons/6978-Hyd_DC_SISM.jpg",
+    "promocode":"P098"
+},
+{
+    "id":4,
+    "couponname":"Myntra",
+    "imageurl":"https://cdn.grabon.in/gograbon/images/web-images/uploads/1549361028827/myntra-coupons.jpg",
+    "promocode":"P098"
+},
+{
+    "id":5,
+    "couponname":"shein",
+    "imageurl":"https://i.pinimg.com/originals/5c/62/ab/5c62ab572bbb4021602cda90af1e8aab.png",
+    "promocode":"P098"
+}]
+    
+

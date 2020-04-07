@@ -1,1 +1,101 @@
-<p>news works!</p>
+<!-- <div class="container-fluid">
+<div class="row">
+  <div class="col-md-4" *ngFor="let i of news">
+     <div class="card  shadow-lg p-3 mb-5 bg-white rounded">
+       <div class="card-body"> 
+       
+      
+     
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <img src="{{i.imageurl}}" style="height: 200px; width: 400px;" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p>name :{{i.name}}</p>
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p>detail :{{i.detail}}</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <button (click)="goToNewsEditComponent(i._id)" class="btn btn-primary">Edit</button>
+          </div>
+          <div class="Col-12">
+            <button (click)="deleteNewsFromService(i)" class="btn btn-danger">Delete</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </div>
+  <button (click)=" addNewsToService()" style="height:30%" class="btn btn-success">Add
+    News</button>
+</div>
+</div> -->
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-4" *ngFor="let i of news">
+      <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+        <div class="card-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <img src="{{i.imageurl}}" style="height: 200px; width: 300px;" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <span>name :{{i.id}}</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <span>name :{{i.name}}</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <span>detail :{{i.detail}}</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <button (click)="goToNewsEditComponent(i._id)" class="btn btn-primary">Edit</button>
+              </div>
+              <div class="col-6">
+                <button (click)="deleteNewsFromService(i)" class="btn btn-danger">Delete</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button (click)=" addNewsToService()" style="height:30%" class="btn btn-success">Add
+    News</button>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+.material-icons{
+    margin-top:30px;
+    margin-left: 17px;
+}
+.icon{
+    margin-left: 70px;
+}
+.material-icons .icon{
+   margin-right: 20px; 
+}

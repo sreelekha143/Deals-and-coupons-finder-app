@@ -52,31 +52,30 @@ export class AboutUsComponent implements OnInit {
       {
        
         "id":1,
-        "name":"Chicken",
-        "detail":"fjghfgfdgnjdfghj",
-        "price":450,
-        "rating":5,
-        "category":"nonveg",
-        "imageurl":"https://i.ytimg.com/vi/zigTgCmsZGc/maxresdefault.jpg"
+        "name":"Paul Hermalin",
+        "email":"sdhfgsdh@email.com",
+        "detail":"As part of the internal managerial transition process initiated in 2017 by Paul Hermelin, Chairman and CEO, the Board of Directors of Capgemini SE, meeting today, chose Aiman",
+        "organization":"capgemini",
+         "imageurl":"https://www.capgemini.com/wp-content/uploads/2017/07/paul_hermelin.jpg?w=250&h=180&crop=1"
       },
       {
+       
         "id":2,
-        "name":"fish",
-        "detail":"fjghfgfdgnjdfghj",
-        "price":500,
-        "rating":4,
-        "category":"nonveg",
-        "imageurl":"https://food.fnr.sndimg.com/content/dam/images/food/fullset/2003/10/16/3/tm1b24_fish_fry.jpg.rend.hgtvcom.616.462.suffix/1547589315824.jpeg"
-        },
-        {
-          "id":3,
-        "name":"brinjal",
-        "detail":"fjghfgfdgnjdfghj",
-        "price":60,
-        "rating":5,
-        "category":"veg",
-        "imageurl":"http://redchillycurry.com/wp-content/uploads/2012/08/brinjal-fry.jpg"
-        }
+        "name":"Aiman Ezzat",
+        "email":"shgfhdgfh@email.com",
+        "detail":" primarily in the Ministry of Finance. He held a number of positions in the Budget Office and on various ministry staffs, including that of Finance Minister Jacques Delors.",
+        "organization":"capgemini",
+         "imageurl":"https://www.cxotoday.com/wp-content/uploads/2019/09/ezzat_aiman1.jpg"
+      },
+      {
+       
+        "id":3,
+        "name":"Ashwin yardi",
+        "email":"shdfdgfhdgfh@email.com",
+        "detail":" The French IT services company announced on Tuesday that CEO Srinivas Kandula will now be the chairman of the India operations, and Ashwin Yardi, COO for India and global lead",
+        "organization":"capgemini",
+         "imageurl":"https://timesofindia.indiatimes.com/thumb/msid-67141517,width-1200,height-900,resizemode-4/.jpg"
+      },
     ]
   }
 

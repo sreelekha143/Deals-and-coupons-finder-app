@@ -1,0 +1,28 @@
+<div class="col-md-4 col-md-offset-4">
+    <form>
+      <div class="form-group">
+        <label>ID</label>
+        <input type="text"  name="id" [(ngModel)]="couponObject.id" class="form-control" >
+      </div>
+      <div class="form-group">
+          <label>couponName</label>
+          <input type="text" name="couponname" [(ngModel)]="couponObject.couponname" class="form-control" >
+        </div>
+        <div class="form-group">
+            <label>promocode</label>
+            <input type="text" name="promocode" [(ngModel)]="couponObject.promocode" class="form-control" >
+          </div>
+     
+         <div class="form-group">
+              <label>Imageurl</label>
+              <input type="text" name="imageurl" [(ngModel)]="couponObject.imageurl" class="form-control" >
+            </div>
+          
+          <button (click)="submit()" class="btn btn-success">Submit</button>  
+          &nbsp;&nbsp;
+          <button (click)="cancel()" class="btn btn-danger">Cancel</button>
+    </form>
+    </div>
+    
+
+

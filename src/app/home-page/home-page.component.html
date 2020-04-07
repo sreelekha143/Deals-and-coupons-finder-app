@@ -1,1 +1,71 @@
-<p>home-page works!</p>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-4" *ngFor="let i of play">
+      <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+        <div class="card-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <img src="{{i.imageurl}}" style="height: 200px; width: 300px;" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <span>id :{{i.id}}</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <span>gamename :{{i.gamename}}</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <span>playername :{{i.playername}}</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <span>detail :{{i.detail}}</span>
+              </div>
+            </div>
+          
+            <div class="row">
+              <div class="col-6">
+                <button (click)="goToplayerEditComponent(i._id)"class="btn btn-primary">Edit</button>
+              </div>
+              <div class="col-6">
+                <button (click)="deleteplayerFromService(i)" class="btn btn-danger">Delete</button>
+              </div>
+              <div>
+                <label onClick="OnIncrement()" value=count class="material-icons">
+                  thumb_up_alt
+                </label>
+              </div>&nbsp;&nbsp;
+              <div>
+                <span class="material-icons icon">
+                  message
+                  </span>
+              </div>
+              
+              <div>
+                <span class="material-icons icon">
+                  share
+                  </span>
+              </div>
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button (click)=" addplayerToService()" style="height:30%" class="btn btn-success">Add
+    News</button>
+</div>
+
+
+
